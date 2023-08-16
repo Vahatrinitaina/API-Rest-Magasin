@@ -1,0 +1,26 @@
+{
+  "name": "node-magasin-api",
+  "version": "1.0.0",
+  "description": "api-for-online-magasin",
+  "main": "App.js",
+  "scripts": {
+    "start": " nodemon App.js",
+    "test-connection": "node auth.js"
+  },
+  "author": "vahatriniaina",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.2",
+    "sequelize": "^6.32.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
